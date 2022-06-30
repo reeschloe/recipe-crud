@@ -53,8 +53,6 @@ td {
   text-align: center;
 }
 
-
-
 /* table */
 
 table {
@@ -86,7 +84,7 @@ th:nth-child(5) {
   width: 30%;
 }
 
-/* Column size for tbody */
+/* Column size and background color for tbody */
 
 tbody tr:nth-child(odd) {
   background-color: #fff0c7;
