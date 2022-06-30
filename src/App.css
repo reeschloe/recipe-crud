@@ -9,14 +9,30 @@ label {
   width: 100px;
 }
 
+input {
+  width: 100%;
+}
+
 header {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
 
 /* typography */
 
 html {
   font-family: 'helvetica neue', sans-serif;
+}
+
+h1 {
+  font-family: 'Playfair Display SC';
+  text-align: center;
+  font-size: 64px;
 }
 
 thead th, tfoot th {
@@ -37,6 +53,8 @@ td {
   text-align: center;
 }
 
+
+
 /* table */
 
 table {
@@ -56,5 +74,32 @@ table {
 
 /* Column Size for thead */
 
+th {
+  width: 10%;
+}
+
+th:nth-child(4) {
+  width: 30%;
+}
+
+th:nth-child(5) {
+  width: 30%;
+}
 
 /* Column size for tbody */
+
+tbody tr:nth-child(odd) {
+  background-color: #fff0c7;
+}
+
+td {
+  width: 10%;
+}
+
+td:nth-child(4) {
+  width: 30%;
+}
+
+td:nth-child(5) {
+  width: 30%;
+}
